@@ -1,0 +1,313 @@
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.container1{
+  margin-top: 20px;
+  overflow: hidden;
+  background-color:rgb(64, 236, 236);
+}
+
+.container2{
+  margin-top: 20px;
+  overflow: hidden;
+  background-color:#000000
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* div {
+    background-color: orange;
+  } */
+
+div1 {
+  background-color: DodgerBlue;
+}
+
+header {
+  background-color: rgba(30, 128, 255, 0);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgNeededOnly {
+  border: 5px solid #555;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* background-image: url('../images/l25.png'); */
+  background-repeat: repeat;
+}
+
+.navBarContentSize {
+  font-size: 25px;
+}
+
+.navBarContentSize1 {
+  font-size: 30px;
+}
+
+.navbar-nav a {
+  font-family: 'Merriweather', serif;
+}
+
+.googleMapFont {
+  font-family: 'Monospace';
+}
+
+.companyTextFontColour {
+  text-color: #7221f300;
+}
+
+.siteLogoDestination {
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+  font-size: 18px;
+  border: floralwhite;
+}
+
+.optionFontSelection {
+  text-color: #fcfcfc
+}
+
+body {
+  font-family: "googleMapFont", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #42a6b8;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 25px;
+  }
+}
+
+.backgroundGradientStyle {
+  background-color: rgb(42, 81, 125);
+}
+.fontFamily{
+  font-family: "Times New Roman", Georgia, sans-serif;
+  font-style: italic;
+}
+
+.valueFontStyle {
+  font-family: 'Georgia';
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif ;
+}
+
+.facilities{
+  display: flex;
+  gap: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.grid-c {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-i {
+  display:inline-block;
+  inline-size: 450px;
+  padding-left: 90px;
+  font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eeefef;
+  background-size:cover;
+  background-position: center;
+
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+.cancelbtn {
+width: auto;
+padding: 25px 25px;
+background-color: #f44336;
+float:left ;
+}
+
+.container {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+display: block;
+float: none;
+}
+.cancelbtn {
+width: 100%;
+}
+
+.head_image {
+  display: flex;
+  flex-direction: row;
+  image-resolution: none;
+  image-orientation: none;
+  image-resolution: no-repeat;
+  width: 20px;
+  height: auto;
+}
+
+}     
+
+.main_hostels{
+  padding-left: 30px;
+  padding-top: 70px;
+  align-content: center;
+  text-align: center;
+}
+
+.main_hostels img{
+  display:inline;
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+}
+
+footer .main_end img {
+  display: initial;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+
+footer .main_end{
+  padding: 70px;
+  font-size: large;
+  font-weight: bold;
+  background-color:#3cdfa3;
+}

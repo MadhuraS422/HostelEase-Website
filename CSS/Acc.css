@@ -1,0 +1,17 @@
+nav{
+    background-color: #2196F3;
+    max-height: fit-content;
+    padding: 30px;
+    padding-top: 100px;
+  }
+  
+  nav a{
+    font-size: xx-large;
+  }
+  
+  nav img{
+    width: auto;
+    height: 200px;
+    float: right;
+    border-radius: 100%;
+  }
