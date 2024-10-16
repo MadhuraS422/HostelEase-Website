@@ -1,0 +1,1 @@
+SELECT * FROM hostel_management_system.login;
